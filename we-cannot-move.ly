@@ -3,9 +3,10 @@
 
 \header {
   title = "We cannot move"
-  subtitle = "«Drums as heard  by J.R. on Kingston Wall's \"II\"»"
+  subtitle = "From Kingston Wall's \"II\""
   composer = "Sami Kuopppamäki"
-  tagline = ##f
+  tagline = "Transcription by Janne Ruuttunen using LilyPond 2.18.2"
+  instrument = "Drums"
 }
 
 drh = \drummode {
@@ -77,9 +78,8 @@ drl = \drummode {
 \score {
   <<
     \new DrumStaff <<
-	  \set Staff.instrumentName = #"drums"
-	   \new DrumVoice { \stemUp \drh }
-	   \new DrumVoice { \stemDown \drl }
+	  \new DrumVoice { \stemUp \drh }
+	  \new DrumVoice { \stemDown \drl }
 	>>
   >>
   \layout { }
