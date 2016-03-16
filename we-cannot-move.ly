@@ -9,7 +9,7 @@
   tagline = "Transcribed by Janne Ruuttunen using LilyPond 2.18.2"
 }
 
-introH = \drummode {
+themeHi = \drummode {
   % Alkuvinkuna ja sisääntulo
   <>^\markup { intro }
   R1*3 r2 r4 sn16^^ sn16^^ sn16^^ sn16^^
@@ -60,7 +60,7 @@ introH = \drummode {
   sn16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16^^ sn16^^ sn16^^ sn16
 }
 
-introL = \drummode {
+themeLo = \drummode {
   % Introssa vain bd
   R1*3 s1
   \repeat unfold 25 { bd4 bd4 bd4 bd4 }
@@ -71,7 +71,7 @@ introL = \drummode {
 }
 
 
-chorusH = \drummode { % 43 
+chorusHi = \drummode { % 43 
   <>^\markup { chorus a }
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
@@ -110,7 +110,7 @@ chorusH = \drummode { % 43
   cymr8 sn16 sn16 sn16 sn16 sn16 sn16 sn16 sn16 tomml16 tomml16 tomml16 tomml16 tomml16 tomml16 
 }
 
-chorusL = \drummode { % 43
+chorusLo = \drummode { % 43
   % a
   bd4 sn8. bd16~bd16 sn16 bd8 sn4
   bd4 sn8. bd16~bd16 sn16 bd16 \parenthesize sn16 sn16 bd8.
@@ -149,11 +149,28 @@ chorusL = \drummode { % 43
   sn8 bd8 bd8 bd8 bd8 bd8 bd8 bd8
 }
 
+themeBHi = \drummode {
+  <>^\markup { theme II }
+  cymc16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn8:32
+  sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^
+  sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn8:32
+  sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^
+  sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn8:32
+  sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^
+  sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn8:32
+  cymc16 sn16 sn16 hho16 sn16 sn16 cymc16 sn16 sn16 hho16 sn16 sn16 s4
+}
+
+themeBLo = \drummode {
+  \repeat unfold 7 { bd4 bd4 bd4 bd4 }
+  bd8. bd16~bd8 bd8~bd16 bd16~bd8 \grace {bd32 tomfh32} tomml8^^ bd8
+}
+  
 \score {
   <<
     \new DrumStaff <<
-      \new DrumVoice { \stemUp \introH \chorusH}
-	  \new DrumVoice { \stemDown \introL \chorusL }
+      \new DrumVoice { \stemUp \themeHi \chorusHi \themeBHi}
+	  \new DrumVoice { \stemDown \themeLo \chorusLo \themeBLo }
 	>>
   >>
   \layout { }
