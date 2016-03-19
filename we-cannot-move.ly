@@ -165,12 +165,55 @@ themeBLo = \drummode {
   \repeat unfold 7 { bd4 bd4 bd4 bd4 }
   bd8. bd16~bd8 bd8~bd16 bd16~bd8 \grace {bd32 tomfh32} tomml8^^ bd8
 }
-  
+
+soloHi = \drummode {
+  <>^\markup { solo }
+  cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
+  cymc8 cymr8 cymr8 cymr16 cymr16^^ cymr8 cymr8 cymr8 cymr8
+  cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
+  cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
+  cymc8 cymr8 cymca8 cymr8 cymr8 cymr8 cymr8 cymr8
+  cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr4
+  cymr8 cymr8 cymca8 cymr8 cymr8 cymr8 cymr8 cymr8
+  cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
+
+  cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr4
+  s4 cymca8 cymr16 cymc16 cymr8 cymr8 s4
+  cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
+  s2 s4 cymca4
+  cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
+  cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
+  cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
+  cymc8 cymr8 cymr8 cymr8 cymr8 s cymr8 cymr8
+}
+
+soloLo = \drummode {
+  bd4 sn8. bd16~bd16 sn8 bd16 sn8 bd8
+  bd4 sn8. bd16~bd16 sn8 bd16 sn16 bd8 \parenthesize bd16
+  bd4 sn8. bd16~bd16 sn8 bd16 sn4
+  bd8. bd16 sn16 sn8 bd16~bd16 sn8 bd16 sn16 sn16 tomml8
+  bd4 sn8. bd16~bd16 sn8. \grace {bd32 tomfh32} sn8 bd8
+  bd4 sn8. bd16~bd16 sn8 bd16 sn16 tomml16 tomfh8
+  bd4 sn8. bd16~bd16 sn8 bd16 sn8. bd16
+  sn8 bd16 tomml16~tomml16 bd16 sn16 bd16~bd16 tomml8. \grace {bd32 tomfh32} sn16_"L" sn8_"L" sn16
+
+  bd8. bd16 sn8. bd16~bd16 sn8 bd16 sn8 sn32 sn32 tomml32 sn32
+  tomml16 tomml16 tomfh16 bd16 sn8. bd16~bd16 sn8 bd16 sn16 tomml16 tomfh8
+  bd8. bd16 sn8. bd16~bd16 sn8 bd16 sn8. bd16
+  sn16 sn16 bd16 tomml16 tomml16 bd16 sn16 sn16 bd16 tomml16 tomfh16 bd16 sn8 bd8
+  bd4 sn8. bd16~bd16 sn8 bd32 bd32 sn8 bd8
+  bd4 sn8. bd16~bd16 sn16 bd8 sn16 bd16 bd16 sn16
+  bd4 sn8. bd16~bd16 sn8 bd16 sn16 bd16 bd8
+  bd8. bd16 sn8 bd16 sn16~sn16 sn16 sn16 bd16~bd16 sn16 sn8
+
+
+}
+
 \score {
   <<
     \new DrumStaff <<
-      \new DrumVoice { \stemUp \themeHi \chorusHi \themeBHi}
-	  \new DrumVoice { \stemDown \themeLo \chorusLo \themeBLo }
+      \new DrumVoice { \stemUp \themeHi \chorusHi \themeBHi \soloHi}
+	  \new DrumVoice { \stemDown \themeLo \chorusLo \themeBLo \soloLo}
 	>>
   >>
   \layout { }
