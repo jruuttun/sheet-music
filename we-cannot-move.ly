@@ -72,6 +72,7 @@ themeLo = \drummode {
 
 
 chorusHi = \drummode { % 43 
+  \break
   <>^\markup { chorus }
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
@@ -150,6 +151,7 @@ chorusLo = \drummode { % 43
 }
 
 themeBHi = \drummode {
+  \break
   <>^\markup { theme 2 }
   cymc16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn8:32
   sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^
@@ -167,6 +169,7 @@ themeBLo = \drummode {
 }
 
 soloHi = \drummode {
+  \break
   <>^\markup { guitar solo }
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymc8 cymr8 cymr8 cymr16 cymr16^^ cymr8 cymr8 cymr8 cymr8
@@ -219,6 +222,7 @@ soloLo = \drummode {
 }
 
 chorusBHi = \drummode {
+  \break
   <>^\markup { chorus 2 } % "seesteinen"
   cymc8 cymr16\p cymr16 cymr16^^ cymr16 cymr16 hho16~hhc8 cymr8 cymr8 cymr8 cymr8
   cymr16 \parenthesize cymr16 cymr16 \parenthesize cymr16 \parenthesize cymr16 cymr16^^ cymr16 tomml32 tomml32 tomml16 tomml16 tomml16 tomml16 tomfh8
@@ -258,12 +262,57 @@ chorusBLo = \drummode {
   bd4 sn8. bd16~bd16 sn16 bd16 bd16 sn8. bd16
   sn16 bd16 tomml16 tomfh16^^ tomml16 tomfh16^^ tomml16 tomfh16^^ tomml16 tomfh16^^ tomml16 bd16 \grace sn32 sn4^^
 }
+themeCHi = \drummode {
+  \break
+  <>^\markup { theme 3 }
+  cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
+  cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymca4
+  cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
+  cymr8 cymr8 cymca8 cymr8 cymr8 cymr8 cymr4
+
+  cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr4
+  cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr4
+  cymr8 cymr8 cymca8 cymr8 cymr8 cymr8 cymr8 cymr8
+  s8 s16 hho16~hhc16 hho16~hhc16 hho16~hhc16 s16 s8 s4
+
+  cymc8 cymr8 cymca8 cymr8 cymr8 cymr8 cymca8 cymr8
+  cymr8 cymr8 cymca8 cymr8 cymr8 cymr8 cymca8 cymr8
+  cymr8 cymr8 cymca8 cymr8 cymr8 cymr8 cymca4
+  cymr8 cymr8 cymca8 cymr8 cymr4 cymr4
+
+  cymc8 cymr8 cymca8 cymr8 cymr8 cymr8 cymca8 cymr8
+  cymr8 cymr8 cymca8 cymr8 cymr8 cymr8 cymca4
+  cymc8 cymr8 cymca8 cymr8 cymr8 cymr8 cymca8 cymr8
+  cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 s4
+
+}
+themeCLo = \drummode {
+  bd8. bd16 sn8. bd16~bd16 sn8 bd16 sn4
+  bd8. bd16 sn8. bd16~bd16 sn8 bd16 sn8 sn16 sn16
+  bd8. bd16 sn8. bd16~bd16 sn8 bd16 sn4
+  bd8. bd16 sn8. bd16~bd16 sn16 bd8 sn16_"L" \parenthesize sn16_"L" sn16 sn16
+  
+  bd8. bd16 sn8. bd16~bd16 sn8 bd16 sn8 sn16 sn16
+  bd8. bd16 sn8. bd16~bd16 sn8 bd16 sn8 sn16 sn16
+  bd8. bd16 sn8. bd16~bd16 sn8 bd16 sn8. bd16
+  sn16 sn16 sn16 bd16~bd16 bd16~bd16 bd16~bd16 sn16 sn16 tomml16 tomfh16 sn16 sn16 sn16
+
+  bd8. bd16 <bd sn>8. bd16~bd16 sn8 bd16 <bd sn>4
+  bd8. bd16 <bd sn>8. bd16~bd16 sn8 bd16 <bd sn>4
+  bd8. bd16 <bd sn>8. bd16~bd16 sn8 bd16 <bd sn>8 sn16 sn16
+  bd8. bd16 <bd sn>8. tomml16~tomml16 tomml16 tomfh8~tomfh16 bd16 tomfh16 tomml16
+
+  bd8. bd16 <bd sn>8. bd16~bd16 sn8 bd16 <bd sn>4
+  bd8. bd16 <bd sn>8. bd16~bd16 sn8 bd16 <bd sn>8 sn16 sn16
+  bd8. bd16 <bd sn>8. bd16~bd16 sn8 bd16 <bd sn>8. bd16
+  sn8^"rit." bd16 tomml16~tomml16 bd16 sn8 bd16 tomml8. \grace {bd32 tomfh32} tomfh16 tomfh16 \grace tomfh32 tomfh8^\markup { to Istwan... }
+}
 
 \score {
   <<
     \new DrumStaff <<
-      \new DrumVoice { \stemUp \themeHi \chorusHi \themeBHi \soloHi \chorusBHi}
-	  \new DrumVoice { \stemDown \themeLo \chorusLo \themeBLo \soloLo \chorusBLo}
+      \new DrumVoice { \stemUp \themeHi \chorusHi \themeBHi \soloHi \chorusBHi \themeCHi}
+	  \new DrumVoice { \stemDown \themeLo \chorusLo \themeBLo \soloLo \chorusBLo \themeCLo}
 	>>
   >>
   \layout { }
