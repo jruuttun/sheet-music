@@ -229,7 +229,15 @@ chorusBHi = \drummode {
 
   cymc8 cymr8 cymr16^^ \parenthesize cymr16 cymr16 cymr16^^ cymr16 \parenthesize cymr16 cymr8 cymr16 \parenthesize sn16 \parenthesize sn16 tomfh16
   tomml16^^ cymr16 \parenthesize sn16 \parenthesize sn16 cymr16 \parenthesize sn16 \parenthesize sn16 tomml16^^ sn32\< sn32 sn32 sn32 sn16\! sn16 sn16 tomml16 tomfh8
-  
+
+  cymc8\f cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
+  cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
+  cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
+  cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
+  cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
+  cymr8 cymr8 cymr8 s16 hho16~hhc16 s8 hho16~hhc16 s8.
+  cymc1
+  cymc1
 }
 chorusBLo = \drummode {
   bd4 s2.
@@ -241,8 +249,16 @@ chorusBLo = \drummode {
   bd4 s2.
   s1
 
-  bd1
+  bd4 sn8. bd16~bd16 sn16 bd8 sn4
+  bd4 sn8. bd16~bd16 sn16 bd8 sn8:32\< bd8\!
+  bd4 sn8. bd16~bd16 sn8 bd16 sn8. bd16
+  sn16 bd16~bd16 bd16~bd16 bd16~sn16 bd16~bd16 sn16~sn16 bd16~sn16 sn16 sn8 
+  bd4 sn8. bd16~bd16 sn8 bd16 sn4 \grace {bd32 bd32}
+  sn8 bd16 sn16~sn16 tomml16~tomfh16 bd16~bd16 sn16~sn16 bd16~bd16 sn16 sn16 bd16
+  bd4 sn8. bd16~bd16 sn16 bd16 bd16 sn8. bd16
+  sn16 bd16 tomml16 tomfh16^^ tomml16 tomfh16^^ tomml16 tomfh16^^ tomml16 tomfh16^^ tomml16 bd16 \grace sn32 sn4^^
 }
+
 \score {
   <<
     \new DrumStaff <<
