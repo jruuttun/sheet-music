@@ -72,7 +72,7 @@ themeLo = \drummode {
 
 
 chorusHi = \drummode { % 43 
-  <>^\markup { chorus a }
+  <>^\markup { chorus }
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
@@ -81,7 +81,7 @@ chorusHi = \drummode { % 43
   cymr8 cymr8 cymr8 cymr16 hho16~hhc16 s8 hho16~hhc16 s8. 
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymc16 tomml16 tomfh16 bd16 sn16 tomml16 tomfh16 tomml16 r16 sn16 sn16 hho16~hho16 sn16 sn16 hho16
-  <>^\markup { chorus b }
+  % toka kierto
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
@@ -90,7 +90,7 @@ chorusHi = \drummode { % 43
   cymr4 s8. hho16~hhc16 hho16~hhc16 s4 s16
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr4
   s8 cymr4 s16 cymc4 cymc4 hho16
-  <>^\markup { chorus c }
+  % kolmas kierto
   cymc8 cymr8 cymca8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymc8 cymr8 cymca8 cymr8 cymr8 s8 s8 s8
   s4 cymc8 cymr16 cymca16 cymr8 cymr8 cymr8 cymr8
@@ -99,7 +99,7 @@ chorusHi = \drummode { % 43
   s8 cymc8 s8. hho16~hhc16 s8 hho16~hhc16 s8. 
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
   s8. hho16~hhc16 s4 hho16~hho4.
-  <>^\markup { chorus d }
+  % neljäs kierto
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
@@ -111,7 +111,7 @@ chorusHi = \drummode { % 43
 }
 
 chorusLo = \drummode { % 43
-  % a
+  % chorus eka kierto
   bd4 sn8. bd16~bd16 sn16 bd8 sn4
   bd4 sn8. bd16~bd16 sn16 bd16 \parenthesize sn16 sn16 bd8.
   bd4 sn8. bd16~bd16 sn16 bd8 sn4
@@ -120,7 +120,7 @@ chorusLo = \drummode { % 43
   bd16 sn16 sn16 bd16 sn8 sn16 bd8 sn16 sn16 bd8 sn16 sn16 bd16
   bd4 sn8. bd16~bd16 sn16 bd8 sn4
   bd8. bd16 s8. bd16 s8. bd16 s4
-  % b
+  % toka kierto
   bd4 sn8. bd16~bd16 sn16 bd8 sn4
   bd4 sn8. bd16~bd16 sn8 bd16 sn16 bd8.
   bd4 sn8. bd16~bd16 sn8 bd16 sn4
@@ -129,7 +129,7 @@ chorusLo = \drummode { % 43
   bd16 sn16 sn16 tomml16 tomfh16 sn16 sn16 bd16 s16 bd16 s16 sn16 sn16 tomml16 tomfh8
   bd8. bd16 sn8. bd16~bd16 sn16 bd16 bd16 sn8 bd32 \parenthesize sn16.:32
   sn16 sn16 bd16 tomml16 tomml16 tomml16 tomfh16 bd16 r16 sn16 sn16 bd16 r16 sn16 sn8
-  % c
+  % kolmas kierto
   bd4 sn8. bd16~bd16 sn8 bd32 bd32 sn8 bd8
   bd4 sn8. bd16~bd16 sn16 sn16 sn16 sn16 sn16 tomml16 tomml16
   tomml16 tomml16 tomfh16 bd16 sn8 s16 bd16~bd16 sn8 bd16 sn8. bd16
@@ -138,7 +138,7 @@ chorusLo = \drummode { % 43
   sn16 sn16 bd16 tomml16 tomfh16 sn16 sn16 bd8 sn8 bd8 sn16 sn16 bd16
   bd8. bd16 sn8. bd16~bd16 sn16 bd16 bd16 sn8. bd16
   sn16 sn16 bd16 bd16~bd16 bd16 sn16 sn16 bd16 bd16~bd16 sn16 sn16 tomml16 tomfh8 
-  % d
+  % neljäs kierto
   bd4 sn8. bd16~bd16 sn8 bd32 bd32 sn8. bd16
   sn8. bd16 sn8. bd16 sn16 bd16~bd16 bd16 sn16 bd16 tomfh8
   bd8. bd16 sn8. bd16~bd16 sn16 bd16 bd16 sn8. bd16
@@ -150,7 +150,7 @@ chorusLo = \drummode { % 43
 }
 
 themeBHi = \drummode {
-  <>^\markup { theme II }
+  <>^\markup { theme 2 }
   cymc16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn8:32
   sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^
   sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn8:32
@@ -167,7 +167,7 @@ themeBLo = \drummode {
 }
 
 soloHi = \drummode {
-  <>^\markup { solo }
+  <>^\markup { guitar solo }
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymc8 cymr8 cymr8 cymr16 cymr16^^ cymr8 cymr8 cymr8 cymr8
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
@@ -185,6 +185,12 @@ soloHi = \drummode {
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymc8 cymr8 cymr8 cymr8 cymr8 s cymr8 cymr8
+
+  cymc8 cymr8 cymca8 cymr8 cymr8 cymr8 cymr4
+  cymc8 cymr8 cymr8 cymr8 cymr8 cymr4 s8
+  cymc8 cymr8 cymr8 cymr8 cymr8 cymr4 s8
+  cymr8 cymr8 cymr8 cymr8 cymr4 tomml4
+
 }
 
 soloLo = \drummode {
@@ -206,14 +212,42 @@ soloLo = \drummode {
   bd4 sn8. bd16~bd16 sn8 bd16 sn16 bd16 bd8
   bd8. bd16 sn8 bd16 sn16~sn16 sn16 sn16 bd16~bd16 sn16 sn8
 
-
+  bd4 sn8. bd16~bd16 sn8 bd16 sn8 tomml32 sn32 sn32 sn32
+  bd4 sn8. bd16~bd16 sn8 bd16 tomml32 tomml32 sn32 sn32 tomml32 sn32 sn32 sn32
+  bd8. bd16 sn8. bd16~bd16 sn8 bd16 sn16 bd8 bd16
+  sn16 sn16 bd16 sn16 sn16 bd16 sn16 sn16 bd16 tomml16 tomfh16 bd16 sn16 <\parenthesize sn bd>16 \parenthesize tomfh16 bd16
 }
 
+chorusBHi = \drummode {
+  <>^\markup { chorus 2 } % "seesteinen"
+  cymc8 cymr16\p cymr16 cymr16^^ cymr16 cymr16 hho16~hhc8 cymr8 cymr8 cymr8 cymr8
+  cymr16 \parenthesize cymr16 cymr16 \parenthesize cymr16 \parenthesize cymr16 cymr16^^ cymr16 tomml32 tomml32 tomml16 tomml16 tomml16 tomml16 tomfh8
+  cymc8 cymr8 cymr16 \parenthesize cymr16 cymr16 cymr16^^ cymr16 \parenthesize cymr16 cymr8 cymr8 cymr8
+  cymr8 cymr8 cymr16 \parenthesize cymr16 cymr16 <tomml cymr>16~<tomml cymr>16 <tomml cymr>16 <tomml cymr>8. tomfh16 tomfh8
+  cymr8 cymr16 \parenthesize cymr16 cymr16 \parenthesize cymr16 cymr16 cymr16^^~cymr16 \parenthesize cymr16 \parenthesize cymr16 \parenthesize cymr16 cymr16 tomml16\< tomml16 tomml16
+  tomml16\!\p cymr16^^ cymr16 cymr16 cymr16^^ cymr16 cymr16 tomfh16^^~tomfh16 tomfh16^^ tomfh16^^ tomfh16 tomfh16 tomfh16^^ tomfh8^^
+
+  cymc8 cymr8 cymr16^^ \parenthesize cymr16 cymr16 cymr16^^ cymr16 \parenthesize cymr16 cymr8 cymr16 \parenthesize sn16 \parenthesize sn16 tomfh16
+  tomml16^^ cymr16 \parenthesize sn16 \parenthesize sn16 cymr16 \parenthesize sn16 \parenthesize sn16 tomml16^^ sn32\< sn32 sn32 sn32 sn16\! sn16 sn16 tomml16 tomfh8
+  
+}
+chorusBLo = \drummode {
+  bd4 s2.
+  bd4 s2.
+  bd4 s2.
+  bd4 s2.
+  bd4 s2.
+  bd4 s2.
+  bd4 s2.
+  s1
+
+  bd1
+}
 \score {
   <<
     \new DrumStaff <<
-      \new DrumVoice { \stemUp \themeHi \chorusHi \themeBHi \soloHi}
-	  \new DrumVoice { \stemDown \themeLo \chorusLo \themeBLo \soloLo}
+      \new DrumVoice { \stemUp \themeHi \chorusHi \themeBHi \soloHi \chorusBHi}
+	  \new DrumVoice { \stemDown \themeLo \chorusLo \themeBLo \soloLo \chorusBLo}
 	>>
   >>
   \layout { }
