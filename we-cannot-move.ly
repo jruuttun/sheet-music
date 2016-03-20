@@ -88,8 +88,8 @@ chorusHi = \drummode { % 43
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymr8 cymr8 s8 cymr8 cymr8 s8 s8 s8
   cymc8 cymr8 cymca8 cymr8 cymr8 cymr8 cymr8 cymr8
-  cymr4 s8. hho16~hhc16 hho16~hhc16 s4 s16
-  cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr4
+  cymr4 s8. hho16~hhc16 hho16~hhc16 s4 cymc16
+  cymca8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr4
   s8 cymr4 s16 cymc4 cymc4 hho16
   % kolmas kierto
   cymc8 cymr8 cymca8 cymr8 cymr8 cymr8 cymr8 cymr8
@@ -118,7 +118,7 @@ chorusLo = \drummode { % 43
   bd4 sn8. bd16~bd16 sn16 bd8 sn4
   bd4 sn8. bd16~bd16 sn8 bd32 bd32 sn8 bd8
   bd4 sn8. bd16~bd16 sn16 bd8 sn4
-  bd16 sn16 sn16 bd16 sn8 sn16 bd8 sn16 sn16 bd8 sn16 sn16 bd16
+  bd16 sn16 sn16 bd16 sn8 sn16 bd16~bd16 sn16~sn16 bd16~bd16 sn16 sn16 bd16
   bd4 sn8. bd16~bd16 sn16 bd8 sn4
   bd8. bd16 s8. bd16 s8. bd16 s4
   % toka kierto
@@ -126,28 +126,28 @@ chorusLo = \drummode { % 43
   bd4 sn8. bd16~bd16 sn8 bd16 sn16 bd8.
   bd4 sn8. bd16~bd16 sn8 bd16 sn4
   bd8. bd32 tomfh32 sn8 bd16 tomml8^^ bd32 tomfh32 sn16 sn16 tomml16 tomfh16 sn8
-  bd8. bd16 sn8. bd16~bd16 \parenthesize sn8 bd16 sn4
-  bd16 sn16 sn16 tomml16 tomfh16 sn16 sn16 bd16 s16 bd16 s16 sn16 sn16 tomml16 tomfh8
+  bd8. bd16 sn8. bd16~bd16 \parenthesize sn8 bd16 sn8. bd16
+  sn8 bd16 tomml16 tomfh16 sn16 sn16 bd16~bd16 bd16~bd16 sn16~sn16 sn16 sn16 bd16
   bd8. bd16 sn8. bd16~bd16 sn16 bd16 bd16 sn8 bd32 \parenthesize sn16.:32
   sn16 sn16 bd16 tomml16 tomml16 tomml16 tomfh16 bd16 r16 sn16 sn16 bd16 r16 sn16 sn8
   % kolmas kierto
   bd4 sn8. bd16~bd16 sn8 bd32 bd32 sn8 bd8
   bd4 sn8. bd16~bd16 sn16 sn16 sn16 sn16 sn16 tomml16 tomml16
   tomml16 tomml16 tomfh16 bd16 sn8 s16 bd16~bd16 sn8 bd16 sn8. bd16
-  bd8. bd32 tomml32 sn8 bd16 sn8 bd32 tomml32 sn16 sn16 bd16 sn16 sn8
-  bd4 sn8. bd16~bd16 sn16 bd8 sn8. bd32 tomfh32
-  sn16 sn16 bd16 tomml16 tomfh16 sn16 sn16 bd8 sn8 bd8 sn16 sn16 bd16
+  bd8. bd32 tomml32 sn8 bd16 sn16~sn16 bd32 tomml32 sn16 sn16 bd16 sn16 sn8
+  bd4 sn8. bd16~bd16 sn16 bd16 bd16 sn8. bd32 tomfh32
+  sn16 sn16 bd16 tomml16 tomfh16 sn16 sn16 bd16~bd16 sn16~sn16 bd16~bd16 sn16 sn16 bd16
   bd8. bd16 sn8. bd16~bd16 sn16 bd16 bd16 sn8. bd16
-  sn16 sn16 bd16 bd16~bd16 bd16 sn16 sn16 bd16 bd16~bd16 sn16 sn16 tomml16 tomfh8 
+  \grace sn32 sn16 sn16 <sn bd>16 bd16~bd16 bd16 \grace sn32 sn16 sn16 <sn bd>16 bd16~bd16 sn16 sn16 tomml16 tomfh8 
   % neljäs kierto
-  bd4 sn8. bd16~bd16 sn8 bd32 bd32 sn8. bd16
+  bd4 sn8. bd16~bd16 sn16 bd16 bd16 sn8. bd16
   sn8. bd16 sn8. bd16 sn16 bd16~bd16 bd16 sn16 bd16 tomfh8
   bd8. bd16 sn8. bd16~bd16 sn16 bd16 bd16 sn8. bd16
   sn16 bd16 tomml16 bd16~bd16 bd16 sn16 bd16~bd16 tomml8 bd16 sn16 bd16 tomfh16 sn16
   bd8. bd16 sn8. bd16~bd16 sn16 bd16 bd16 sn8 bd8
   bd8 sn8:32 sn16 tomml16 tomfh16 bd16~bd16 sn16~sn16 bd16~bd16 sn16 sn16 bd16
   bd8. bd16 sn8. bd16~bd16 sn16 bd16 bd16 sn8. bd16
-  sn8 bd8 bd8 bd8 bd8 bd8 bd8 bd8
+  sn8 s 8 bd8 bd8 bd8 bd8 bd8 bd8
 }
 
 themeBHi = \drummode {
@@ -211,8 +211,8 @@ soloLo = \drummode {
   bd8. bd16 sn8. bd16~bd16 sn8 bd16 sn8. bd16
   sn16 sn16 bd16 tomml16 tomml16 bd16 sn16 sn16 bd16 tomml16 tomfh16 bd16 sn8 bd8
   bd4 sn8. bd16~bd16 sn8 bd32 bd32 sn8 bd8
-  bd4 sn8. bd16~bd16 sn16 bd8 sn16 bd16 bd16 sn16
-  bd4 sn8. bd16~bd16 sn8 bd16 sn16 bd16 bd8
+  bd4 sn8. bd16~bd16 sn8 bd16 sn16 bd16 bd16 sn16
+  bd4 sn8. bd16~bd16 sn8 bd16 sn16 bd16 bd16 sn16
   bd8. bd16 sn8 bd16 sn16~sn16 sn16 sn16 bd16~bd16 sn16 sn8
 
   bd4 sn8. bd16~bd16 sn8 bd16 sn8 tomml32 sn32 sn32 sn32
@@ -228,7 +228,7 @@ chorusBHi = \drummode {
   cymr16 \parenthesize cymr16 cymr16 \parenthesize cymr16 \parenthesize cymr16 cymr16^^ cymr16 tomml32 tomml32 tomml16 tomml16 tomml16 tomml16 tomfh8
   cymc8 cymr8 cymr16 \parenthesize cymr16 cymr16 cymr16^^ cymr16 \parenthesize cymr16 cymr8 cymr8 cymr8
   cymr8 cymr8 cymr16 \parenthesize cymr16 cymr16 <tomml cymr>16~<tomml cymr>16 <tomml cymr>16 <tomml cymr>8. tomfh16 tomfh8
-  cymr8 cymr16 \parenthesize cymr16 cymr16 \parenthesize cymr16 cymr16 cymr16^^~cymr16 \parenthesize cymr16 \parenthesize cymr16 \parenthesize cymr16 cymr16 tomml16\< tomml16 tomml16
+  cymc8 cymr16 \parenthesize cymr16 cymr16 \parenthesize cymr16 cymr16 cymr16^^~cymr16 \parenthesize cymr16 \parenthesize cymr16 \parenthesize cymr16 cymr16 tomml16\< tomml16 tomml16
   tomml16\!\p cymr16^^ cymr16 cymr16 cymr16^^ cymr16 cymr16 tomfh16^^~tomfh16 tomfh16^^ tomfh16^^ tomfh16 tomfh16 tomfh16^^ tomfh8^^
 
   cymc8 cymr8 cymr16^^ \parenthesize cymr16 cymr16 cymr16^^ cymr16 \parenthesize cymr16 cymr8 cymr16 \parenthesize sn16 \parenthesize sn16 tomfh16
@@ -237,17 +237,17 @@ chorusBHi = \drummode {
   cymc8\f cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
-  cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
-  cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
+  cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 s4
+  cymc8 cymr8 cymca8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymr8 cymr8 cymr8 s16 hho16~hhc16 s8 hho16~hhc16 s8.
   cymc1
   cymc1
 }
 chorusBLo = \drummode {
   bd4 s2.
+  s1
   bd4 s2.
-  bd4 s2.
-  bd4 s2.
+  s1
   bd4 s2.
   bd4 s2.
   bd4 s2.
@@ -256,9 +256,9 @@ chorusBLo = \drummode {
   bd4 sn8. bd16~bd16 sn16 bd8 sn4
   bd4 sn8. bd16~bd16 sn16 bd8 sn8:32\< bd8\!
   bd4 sn8. bd16~bd16 sn8 bd16 sn8. bd16
-  sn16 bd16~bd16 bd16~bd16 bd16~sn16 bd16~bd16 sn16~sn16 bd16~sn16 sn16 sn8 
+  sn16 bd16~bd16 bd16~bd16 bd16~sn16 bd16~bd16 sn16~sn16 bd16 sn16 sn16 sn8 
   bd4 sn8. bd16~bd16 sn8 bd16 sn4 \grace {bd32 bd32}
-  sn8 bd16 sn16~sn16 tomml16~tomfh16 bd16~bd16 sn16~sn16 bd16~bd16 sn16 sn16 bd16
+  sn8 bd16 sn16~sn16 tomml16 tomfh16 bd16~bd16 sn16~sn16 bd16~bd16 sn16 sn16 bd16
   bd4 sn8. bd16~bd16 sn16 bd16 bd16 sn8. bd16
   sn16 bd16 tomml16 tomfh16^^ tomml16 tomfh16^^ tomml16 tomfh16^^ tomml16 tomfh16^^ tomml16 bd16 \grace sn32 sn4^^
 }
@@ -268,7 +268,7 @@ themeCHi = \drummode {
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymca4
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
-  cymr8 cymr8 cymca8 cymr8 cymr8 cymr8 cymr4
+  cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr4
 
   cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr4
   cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr4
@@ -282,7 +282,7 @@ themeCHi = \drummode {
 
   cymc8 cymr8 cymca8 cymr8 cymr8 cymr8 cymca8 cymr8
   cymr8 cymr8 cymca8 cymr8 cymr8 cymr8 cymca4
-  cymc8 cymr8 cymca8 cymr8 cymr8 cymr8 cymca8 cymr8
+  cymr8 cymr8 cymca8 cymr8 cymr8 cymr8 cymca8 cymr8
   cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 s4
 
 }
