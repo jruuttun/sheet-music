@@ -145,7 +145,7 @@ chorusLo = \drummode { % 43
   bd8. bd16 sn8. bd16~bd16 sn16 bd16 bd16 sn8. bd16
   sn16 bd16 tomml16 bd16~bd16 bd16 sn16 bd16~bd16 tomml8 bd16 sn16 bd16 tomfh16 sn16
   bd8. bd16 sn8. bd16~bd16 sn16 bd16 bd16 sn8 bd8
-  bd8 sn8:32 sn16 tomml16 tomfh16 bd16~bd16 sn16~sn16 bd16~bd16 sn16 sn16 bd16
+  bd8 sn8: sn16 tomml16 tomfh16 bd16~bd16 sn16~sn16 bd16~bd16 sn16 sn16 bd16
   bd8. bd16 sn8. bd16~bd16 sn16 bd16 bd16 sn8. bd16
   sn8 s 8 bd8 bd8 bd8 bd8 bd8 bd8
 }
@@ -153,13 +153,13 @@ chorusLo = \drummode { % 43
 themeBHi = \drummode {
   \break
   <>^\markup { theme 2 }
-  cymc16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn8:32
+  cymc16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn8:
   sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^
-  sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn8:32
+  sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn8:
   sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^
-  sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn8:32
+  sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn8:
   sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^
-  sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn8:32
+  sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn8:
   cymc16 sn16 sn16 hho16 sn16 sn16 cymc16 sn16 sn16 hho16 sn16 sn16 s4
 }
 
@@ -191,8 +191,8 @@ soloHi = \drummode {
 
   cymc8 cymr8 cymca8 cymr8 cymr8 cymr8 cymr4
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr4 s8
-  cymc8 cymr8 cymr8 cymr8 cymr8 cymr4 s8
-  cymr8 cymr8 cymr8 cymr8 cymr4 tomml4
+  cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
+  cymr8 cymr8 cymr8 cymr8 cymr4 tomml8 tomfh8
 
 }
 
@@ -218,7 +218,7 @@ soloLo = \drummode {
   bd4 sn8. bd16~bd16 sn8 bd16 sn8 tomml32 sn32 sn32 sn32
   bd4 sn8. bd16~bd16 sn8 bd16 tomml32 tomml32 sn32 sn32 tomml32 sn32 sn32 sn32
   bd8. bd16 sn8. bd16~bd16 sn8 bd16 sn16 bd8 bd16
-  sn16 sn16 bd16 sn16 sn16 bd16 sn16 sn16 bd16 tomml16 tomfh16 bd16 sn16 <\parenthesize sn bd>16 \parenthesize tomfh16 bd16
+  sn16 sn16 bd16 sn16 sn16 bd16 sn16 sn16 bd16 tomml16 tomfh16 bd16 sn16 <\parenthesize sn bd>8 bd16
 }
 
 chorusBHi = \drummode {
@@ -254,7 +254,7 @@ chorusBLo = \drummode {
   s1
 
   bd4 sn8. bd16~bd16 sn16 bd8 sn4
-  bd4 sn8. bd16~bd16 sn16 bd8 sn8:32\< bd8\!
+  bd4 sn8. bd16~bd16 sn16 bd8 sn8:\< bd8\!
   bd4 sn8. bd16~bd16 sn8 bd16 sn8. bd16
   sn16 bd16~bd16 bd16~bd16 bd16~sn16 bd16~bd16 sn16~sn16 bd16 sn16 sn16 sn8 
   bd4 sn8. bd16~bd16 sn8 bd16 sn4 \grace {bd32 bd32}
