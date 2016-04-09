@@ -1,5 +1,5 @@
 \version "2.18.2"
-\pointAndClickOff
+% \pointAndClickOff
 
 \header {
   title = "We cannot move"
@@ -86,14 +86,14 @@ chorusHi = \drummode { % 43
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
-  cymr8 cymr8 s8 cymr8 cymr8 s8 s8 s8
+  cymr8 cymr8 s8 cymr8 cymr8 s8 cymr8 s8
   cymc8 cymr8 cymca8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymr4 s8. hho16~hhc16 hho16~hhc16 s4 cymc16
   cymca8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr4
   s8 cymr4 s16 cymc4 cymc4 hho16
   % kolmas kierto
   cymc8 cymr8 cymca8 cymr8 cymr8 cymr8 cymr8 cymr8
-  cymc8 cymr8 cymca8 cymr8 cymr8 s8 s8 s8
+  cymr8 cymr8 cymr8 cymr8 cymr8 s8 s8 s8
   s4 cymc8 cymr16 cymca16 cymr8 cymr8 cymr8 cymr8
   cymr8 cymr8 s8 cymr8 cymr8 s8 cymca4 
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
@@ -120,16 +120,16 @@ chorusLo = \drummode { % 43
   bd4 sn8. bd16~bd16 sn16 bd8 sn4
   bd16 sn16 sn16 bd16 sn8 sn16 bd16~bd16 sn16~sn16 bd16~bd16 sn16 sn16 bd16
   bd4 sn8. bd16~bd16 sn16 bd8 sn4
-  bd8. bd16 s8. bd16 s8. bd16 s4
+  bd8. bd16 s8. bd16 s8. bd16 s8. bd16
   % toka kierto
   bd4 sn8. bd16~bd16 sn16 bd8 sn4
   bd4 sn8. bd16~bd16 sn8 bd16 sn16 bd8.
-  bd4 sn8. bd16~bd16 sn8 bd16 sn4
-  bd8. bd32 tomfh32 sn8 bd16 tomml8^^ bd32 tomfh32 sn16 sn16 tomml16 tomfh16 sn8
+  bd4 sn8. bd16~bd16 sn8 bd16 sn8. bd16
+  bd8. bd32 tomfh32 sn8 bd16 tomml8^^ bd32 tomfh32 sn16 sn16 bd16 tomml16 sn8
   bd8. bd16 sn8. bd16~bd16 \parenthesize sn8 bd16 sn8. bd16
   sn8 bd16 tomml16 tomfh16 sn16 sn16 bd16~bd16 bd16~bd16 sn16~sn16 sn16 sn16 bd16
   bd8. bd16 sn8. bd16~bd16 sn16 bd16 bd16 sn8 bd32 \parenthesize sn16.:32
-  sn16 sn16 bd16 tomml16 tomml16 tomml16 tomfh16 bd16 r16 sn16 sn16 bd16 r16 sn16 sn8
+  sn16 sn16 bd16 tomml16 tomml16 tomml16 tomfh16 bd16 r16 sn16 sn16 bd16 r16 sn16 sn16 bd16
   % kolmas kierto
   bd4 sn8. bd16~bd16 sn8 bd32 bd32 sn8 bd8
   bd4 sn8. bd16~bd16 sn16 sn16 sn16 sn16 sn16 tomml16 tomml16
@@ -160,7 +160,7 @@ themeBHi = \drummode {
   sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn8:
   sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^
   sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn8:
-  cymc16 sn16 sn16 hho16 sn16 sn16 cymc16 sn16 sn16 hho16 sn16 sn16 s4
+  cymc16 sn16 sn16^^ hho16 sn16 sn16^^ cymc16 sn16 sn16^^ hho16 sn16 sn16 s4
 }
 
 themeBLo = \drummode {
@@ -174,7 +174,7 @@ soloHi = \drummode {
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymc8 cymr8 cymr8 cymr16 cymr16^^ cymr8 cymr8 cymr8 cymr8
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
-  cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
+  cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr4
   cymc8 cymr8 cymca8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr4
   cymr8 cymr8 cymca8 cymr8 cymr8 cymr8 cymr8 cymr8
@@ -240,7 +240,7 @@ chorusBHi = \drummode {
   cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 s4
   cymc8 cymr8 cymca8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymr8 cymr8 cymr8 s16 hho16~hhc16 s8 hho16~hhc16 s8.
-  cymc1
+  cymr8 cymr8 cymca8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymc1
 }
 chorusBLo = \drummode {
