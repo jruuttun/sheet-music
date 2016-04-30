@@ -4,7 +4,7 @@
 \header {
   title = "We cannot move"
   subtitle = "From Kingston Wall's \"II\""
-  composer = "Sami Kuopppamäki"
+  composer = "Sami Kuoppamäki"
   instrument = "Drums"
   tagline = "Transcribed by Janne Ruuttunen using LilyPond 2.18.2"
 }
@@ -316,7 +316,4 @@ themeCLo = \drummode {
 	>>
   >>
   \layout { }
-  \midi {
-    \tempo 4 = 120
-  }
 }
