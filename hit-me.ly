@@ -86,8 +86,8 @@ vBdown = \drummode {
   \repeat percent 2 { \vBGrooveDown }
   s2. sn4
   \repeat percent 5 { \vBGrooveDown }
-  bd16 \parenthesize sn8. <bd sn>4 bd sn8 \tuplet 3/2 {\parenthesize sn16_"R" \parenthesize sn_"R" \parenthesize sn_"L"}
-  sn16_"R" bd~bd bd \tuplet 3/2  {\parenthesize sn16_"R" \parenthesize sn_"R" \parenthesize sn_"L"} sn16_"R" bd~bd bd~bd8 r sn
+  bd16 \parenthesize sn8. <bd sn>4 bd sn8 \tuplet 3/2 {\parenthesize sn16_"r" \parenthesize sn_"r" \parenthesize sn_"l"}
+  sn16_"r" bd~bd bd \tuplet 3/2  {\parenthesize sn16_"r" \parenthesize sn_"r" \parenthesize sn_"l"} sn16_"r" bd~bd bd~bd8 r sn
   \repeat percent 7 { \vBSimpleDown }
   bd16 tommh sn bd16~bd8 bd16 tommh sn bd16~bd8 bd tomml16 sn
 }
@@ -111,10 +111,13 @@ chBdown = \drummode {
   s1 s
 }
 brUp = \drummode {
-  s2. cymc4~^^
+  s2. cymc4
+  s2 s8 cymc4.~
+  cymc1
 }
 brDown = \drummode {
-  \tuplet 3/2 8 {sn16^^ tomml tomml bd bd toml toml bd bd sn16^^ tomml tomml bd bd toml toml bd bd} sn4
+  \tuplet 3/2 8 {sn16_"r" tomml_"l" tomml_"l" bd bd toml_"r" toml_"r" bd bd sn16 tomml tomml bd bd toml toml bd bd} sn4
+  \tuplet 3/2 8 {sn16_"r"^^ sn_"l" sn_"l" sn_"r" sn_"r" sn_"l"^^ sn_"r" sn_"r" sn^^_"l" sn^^_"r" sn_"l" sn_"l" sn_"r" sn_"r" sn^^_"l"} bd4.
 }
 
 up = \drummode { \unfoldRepeats {
