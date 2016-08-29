@@ -81,30 +81,58 @@ vBup = \drummode {
   \repeat percent 5 { \vBSimpleUp }
   hh hh^^ hh hh^^ hh hh^^ hh hh16 hh16^^
   s8. hh16~hh hh^^~hh s4 hh16^^~hh hh^^~hh8
-  cymc1
 }
 vBdown = \drummode {
   \repeat percent 2 { \vBGrooveDown }
   s2. sn4
   \repeat percent 5 { \vBGrooveDown }
   bd16 \parenthesize sn8. <bd sn>4 bd sn8 \tuplet 3/2 {\parenthesize sn16_"R" \parenthesize sn_"R" \parenthesize sn_"L"}
-  sn16_"R" bd~bd bd \tuplet 3/2  {\parenthesize sn16_"R" \parenthesize sn_"R" \parenthesize sn_"L"} sn16_"R" bd~bd bd r4 sn8
+  sn16_"R" bd~bd bd \tuplet 3/2  {\parenthesize sn16_"R" \parenthesize sn_"R" \parenthesize sn_"L"} sn16_"R" bd~bd bd~bd8 r sn
   \repeat percent 7 { \vBSimpleDown }
   bd16 tommh sn bd16~bd8 bd16 tommh sn bd16~bd8 bd tomml16 sn
-  bd1						   
 }
+
+chBup = \drummode {
+  cymc8 \parenthesize hho hho \parenthesize hho
+  \repeat percent 6 \chHH
+  hho \parenthesize hho hho cymc~ 
+  cymc \parenthesize hho hho \parenthesize hho
+  \repeat percent 4 \chHH
+  hho \parenthesize hho hho cymc
+  s4 s8. cymc16~cymc4. cymcb8~cymcb16 cymc8. cymcb8. cymc16~cymc2~
+  cymc1~cymc
+}
+chBdown = \drummode {
+  bd4 <bd sn>4 bd8. bd16 sn8 bd8~bd16 bd8. <bd sn~>8. \parenthesize sn8 \parenthesize sn bd16 sn16 bd8 \parenthesize sn16:32
+  bd4 <bd sn>4 bd8. bd16 sn8 bd8~bd8. bd16 sn8. \parenthesize sn8 \parenthesize sn bd16 sn8 bd8~
+  bd8 bd8 sn16 bd8. bd8. bd16 sn8 bd8~bd16 bd8. <bd sn~>8. \parenthesize sn8 \parenthesize sn bd16 sn16 bd8 \parenthesize sn16:32
+  bd4 <bd sn>4 bd8. bd16 sn8 bd
+  \parenthesize sn16 sn \parenthesize sn sn sn \parenthesize sn sn bd16~bd <sn toml>16 bd bd <sn toml>16 bd16 bd8 sn16 bd8 sn16 bd8 sn16 bd16~bd2
+  s1 s
+}
+brUp = \drummode {
+  s2. cymc4~^^
+}
+brDown = \drummode {
+  \tuplet 3/2 8 {sn16^^ tomml tomml bd bd toml toml bd bd sn16^^ tomml tomml bd bd toml toml bd bd} sn4
+}
+
 up = \drummode { \unfoldRepeats {
   \tempo 4 = 130
   \introUp
   \vAup
   \chAup
   \vBup
+  \chBup
+  \brUp
 }}
 down = \drummode { \unfoldRepeats {
   <>^\markup { intro }  \introDown
   <>^\markup { verse }  \vAdown
   <>^\markup { chorus } \chAdown
   <>^\markup { verse 2 } \vBdown
+  <>^\markup { chorus } \chBdown
+  <>^\markup { bridge } \brDown
   <>^\markup { TBD }
 }}
 
