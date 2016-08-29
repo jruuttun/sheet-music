@@ -22,7 +22,7 @@ introUp = \drummode {
   hho \parenthesize hho hho cymc8~cymc4 s8 \tuplet 3/2 {r8 cymcb16->~} cymcb4. hho8
 }
 introDown = \drummode {
-  r2 r8 \tuplet 3/2 { tomml16 tommh bd } \tuplet 3/2 { toml tomml bd} sn8^^
+  r2 r8 \tuplet 3/2 { bd16 toml tomml } \tuplet 3/2 { tomml bd bd} \grace { sn16 } sn8^^
   bd4 <bd sn>4 bd8. bd16 sn8 bd8~bd16 bd8. <bd sn~>8. \parenthesize sn8 \parenthesize sn bd16 sn16 bd8 \parenthesize sn16:32
   bd4 <bd sn>4 bd8. bd16 sn8 bd8~bd8. bd16 sn8. \parenthesize sn8 \parenthesize sn bd16 sn8 bd8~
   bd8 bd8 sn16 bd8. bd8. bd16 sn8 bd8~bd16 bd8. <bd sn~>8. \parenthesize sn8 \parenthesize sn bd16 sn16 bd8 \parenthesize sn16:32
