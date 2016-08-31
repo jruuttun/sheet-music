@@ -101,6 +101,7 @@ chBup = \drummode {
   hho \parenthesize hho hho cymc
   s4 s8. cymc16~cymc4. cymcb8~cymcb16 cymc8. cymcb8. cymc16~cymc2~
   cymc1~cymc
+  s2. cymc4
 }
 chBdown = \drummode {
   bd4 <bd sn>4 bd8. bd16 sn8 bd8~bd16 bd8. <bd sn~>8. \parenthesize sn8 \parenthesize sn bd16 sn16 bd8 \parenthesize sn16:32
@@ -109,15 +110,17 @@ chBdown = \drummode {
   bd4 <bd sn>4 bd8. bd16 sn8 bd
   \parenthesize sn16 sn \parenthesize sn sn sn \parenthesize sn sn bd16~bd <sn toml>16 bd bd <sn toml>16 bd16 bd8 sn16 bd8 sn16 bd8 sn16 bd16~bd2
   s1 s
+  \tuplet 3/2 8 {sn16_"r" tomml_"l" tomml_"l" bd bd toml_"r" toml_"r" bd bd sn16 tomml tomml bd bd toml toml bd bd} sn4
 }
 brUp = \drummode {
-  s2. cymc4
-  s2 s8 cymc4.~
-  cymc1
+  hhp4 hhp4 hhp8 cymc hhp hho
+  hhp8 s8 s4 s s8 hho8
+  hhp
 }
 brDown = \drummode {
-  \tuplet 3/2 8 {sn16_"r" tomml_"l" tomml_"l" bd bd toml_"r" toml_"r" bd bd sn16 tomml tomml bd bd toml toml bd bd} sn4
-  \tuplet 3/2 8 {sn16_"r"^^ sn_"l" sn_"l" sn_"r" sn_"r" sn_"l"^^ sn_"r" sn_"r" sn^^_"l" sn^^_"r" sn_"l" sn_"l" sn_"r" sn_"r" sn^^_"l"} bd4.
+  \tuplet 3/2 8 {sn16_"r"^^ sn_"l" sn_"l" sn_"r" sn_"r" sn_"l"^^ sn_"r" sn_"r" sn^^_"l" sn^^_"r" sn_"l" sn_"l" sn_"r" sn_"r" sn^^_"l"} bd8~bd sn8~
+  sn16 bd16~bd8 bd4 <sn toml>4 s4
+  bd4
 }
 
 up = \drummode { \unfoldRepeats {
