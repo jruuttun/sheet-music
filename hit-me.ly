@@ -119,7 +119,7 @@ brUp = \drummode {
   hh hh16 hh hh8 hh hh hh cymc hho
   hhp hh hh hh hh hh r hho
   hh4 hh16 hh hh8 hh hh hho cymc
-  s16 cymr s16 s16 cymr s16 s16 cymr s16 hho hhp hho~hho4
+  s16 cymr s s cymr s s s s hho hhp hho~hho4
 }
 brDown = \drummode {
   \tuplet 3/2 8 {sn16_"r"^^ sn_"l" sn_"l" sn_"r" sn_"r" sn_"l"^^ sn_"r" sn_"r" sn^^_"l" sn^^_"r" sn_"l" sn_"l" sn_"r" sn_"r" sn^^_"l"} bd8~bd sn8~
@@ -129,8 +129,9 @@ brDown = \drummode {
   bd8. bd16 bd8. sn16~sn sn~sn bd sn4
   s8 bd~bd16 bd8. r16 sn: <toml bd>8~<toml bd>4
   bd4 <bd sn> bd16 \parenthesize sn \parenthesize sn bd16 sn8 bd
-  \grace sn16 sn8 sn16 \grace sn16 sn~sn sn \grace sn16 sn8 \grace sn16 sn16 bd~bd bd8.
+  \grace sn16 sn8 sn16 \grace sn sn~sn sn \grace sn \tuplet 3/2 {sn sn sn} sn bd~bd bd16~bd8 sn8
 }
+
 
 up = \drummode { \unfoldRepeats {
   \tempo 4 = 130
