@@ -128,7 +128,7 @@ brDown = \drummode {
   bd16 \parenthesize {sn:} r bd16~bd8 bd \tuplet 3/2 {r16 bd bd} sn8. sn16~sn8
   bd8. bd16 bd8. sn16~sn sn~sn bd sn4
   s8 bd~bd16 bd8. r16 sn: <toml bd>8~<toml bd>4
-  bd4 <bd sn> bd16 \parenthesize sn \parenthesize sn bd16 sn8 bd
+  bd4 <bd sn> bd16 \parenthesize sn \parenthesize sn bd16 sn8 sn
   \grace sn16 sn8 sn16 \grace sn sn~sn sn \grace sn \tuplet 3/2 {sn sn sn} sn bd~bd bd16~bd8 sn8
 }
 
