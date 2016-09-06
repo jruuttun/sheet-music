@@ -131,8 +131,48 @@ brDown = \drummode {
   bd4 <bd sn> bd16 \parenthesize sn \parenthesize sn bd16 sn8 sn
   \grace sn16 sn8 sn16 \grace sn sn~sn sn \grace sn \tuplet 3/2 {sn sn sn} sn bd~bd bd16~bd8 sn8
 }
-
-
+vCGrooveUp = \drummode {
+  hhp16 hh hh hh hh hh^^ hh hh^^ r8. hh16 s8. hho16
+}
+vCup = \drummode {
+  cymc16 hh hh hh hh hh^^ hh hh^^ r8. hh16 s8. hho16
+  \vCGrooveUp	
+  \vCGrooveUp	
+  hhp16 hh hh hh hh hh^^ hh hh^^ \tuplet 3/2 {hh16 hh hh} hh hh hh hh^^~hh hh^^
+  cymc16 hh hh hh hh hh^^ hh hh^^ r8 hho hhp8. hho16
+  \vCGrooveUp	
+  \vCGrooveUp	
+  hhp16 hh hh hh hh hho hho8 s2
+}
+vCGrooveDown = \drummode {
+  bd4 <bd sn> bd <bd sn>
+}	
+vCdown = \drummode {
+  \vCGrooveDown
+  \vCGrooveDown
+  \vCGrooveDown
+  \vCGrooveDown
+  \vCGrooveDown
+  \vCGrooveDown
+  \vCGrooveDown
+  bd8 sn16 bd~bd8 bd8 \tuplet 3/2 8 {sn16 sn sn bd tommh tommh tommh bd tomml tomml toml toml}
+}
+chCup = \drummode {
+  cymc8 \parenthesize hho hho \parenthesize hho
+  \repeat percent 6 \chHH
+  hho \parenthesize hho hho cymc~ 
+  cymc \parenthesize hho hho \parenthesize hho
+  \repeat percent 4 \chHH
+  hho \parenthesize hho hho cymcb~
+  <cymcb hhp>8 cymcb~<cymcb hhp>8. cymc16~cymca8. cymca16~cymca4
+}
+chCdown = \drummode {
+  bd4 <bd sn>4 bd8. bd16 sn8 bd8~bd16 bd8. <bd sn~>8. \parenthesize sn8 \parenthesize sn bd16 sn16 bd8 \parenthesize sn16:32
+  bd4 <bd sn>4 bd8. bd16 sn8 bd8~bd8. bd16 sn8. \parenthesize sn8 \parenthesize sn bd16 sn8 bd8~
+  bd8 bd8 sn16 bd8. bd8. bd16 sn8 bd8~bd16 bd8. <bd sn~>8. \parenthesize sn8 \parenthesize sn bd16 sn16 bd8 \parenthesize sn16:32
+  bd4 <bd sn>4 bd8. bd16 sn8 bd~
+  bd8 bd sn8. bd16~bd8. bd16 sn
+}		 
 up = \drummode { \unfoldRepeats {
   \tempo 4 = 130
   \introUp
@@ -141,6 +181,8 @@ up = \drummode { \unfoldRepeats {
   \vBup
   \chBup
   \brUp
+  \vCup
+  \chCup
 }}
 down = \drummode { \unfoldRepeats {
   <>^\markup { intro }  \introDown
@@ -149,6 +191,8 @@ down = \drummode { \unfoldRepeats {
   <>^\markup { verse 2 } \vBdown
   <>^\markup { chorus } \chBdown
   <>^\markup { middle 8 } \brDown
+  <>^\markup { verse 3 } \vCdown
+  <>^\markup { chorus } \chCdown
   <>^\markup { TBD }
 }}
 
@@ -157,8 +201,8 @@ down = \drummode { \unfoldRepeats {
   <<
     \new DrumStaff <<
       \new DrumVoice { \stemUp \up}
-	  \new DrumVoice { \stemDown \down}
-	>>
+      \new DrumVoice { \stemDown \down}
+    >>
   >>
   \layout { }
   \midi { }
