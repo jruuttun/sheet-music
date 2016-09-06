@@ -63,7 +63,7 @@ vBGrooveUp = \drummode {
   hh8 hh^^ hh8 r16 hho hhp4 hh16 \parenthesize hh16 hh8  
 } 
 vBGrooveDown = \drummode {
-  bd16 \parenthesize sn8. <bd sn>4 bd sn8. \parenthesize sn16:32
+  bd16 \parenthesize sn8. <bd sn>4 bd <bd sn>8. \parenthesize sn16:32
 }
 vBSimpleUp = \drummode {
   hh8 hh^^ hh hh^^ hh hh^^ hh hh^^    
@@ -86,7 +86,7 @@ vBdown = \drummode {
   \repeat percent 2 { \vBGrooveDown }
   s2. sn4
   \repeat percent 5 { \vBGrooveDown }
-  bd16 \parenthesize sn8. <bd sn>4 bd sn8 \tuplet 3/2 {\parenthesize sn16_"r" \parenthesize sn_"r" \parenthesize sn_"l"}
+  bd16 \parenthesize sn8. <bd sn>4 bd <bd sn>8 \tuplet 3/2 {\parenthesize sn16_"r" \parenthesize sn_"r" \parenthesize sn_"l"}
   sn16_"r" bd~bd bd \tuplet 3/2  {\parenthesize sn16_"r" \parenthesize sn_"r" \parenthesize sn_"l"} sn16_"r" bd~bd bd~bd8 r sn
   \repeat percent 7 { \vBSimpleDown }
   bd16 tommh sn bd16~bd8 bd16 tommh sn bd16~bd8 bd tomml16 sn
