@@ -30,34 +30,34 @@ themeHi = \drummode {
   sn16 sn16 sn16 sn16: sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16: sn16^^ sn16 sn16^^ sn16^^
 
   <>^\markup { theme in unison }
-  cymc16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ sn16^^ sn8^^
-  cymc16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16: sn16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn8:
-  sn16^^ sn16: sn16: sn16^^ sn16: sn16: sn16^^ sn16: sn16: sn16^^ sn16: sn16: sn16^^ sn16: sn8:
+  cymc16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16^^ sn8^^
+  cymc16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16: <sn hhp>16^^ sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
+  sn16^^ sn16: sn16: sn16^^ <sn hhp>16: sn16: sn16^^ sn16: sn16: sn16^^ sn16: sn16: <sn hhp>16^^ sn16: sn8:
   
   <>^\markup { bridge }
-  cymc16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^
-  cymc16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 sn16^^ sn16^^ sn16 sn16
-  cymc16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16: sn16^^ sn16 sn16 sn16^^
-  sn16 sn16^^ sn16 sn16: sn16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16^^ sn16 sn16^^ sn16^^ sn16:
-  cymc16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ sn16^^ sn8:
-  cymc16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16^^ sn16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 sn16^^ sn16 sn16: sn16^^ sn16 sn16 sn16 sn16 sn16 sn16^^ sn16 sn16^^
-  sn16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16^^ sn16^^ sn16^^ sn16
+  cymc16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ <sn hhp>16 sn16 sn16^^
+  cymc16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hhp>16^^ sn16^^ sn16 sn16
+  cymc16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16: <sn hhp>16^^ sn16 sn16 sn16^^
+  sn16 sn16^^ sn16 sn16: <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16^^ <sn hhp>16 sn16^^ sn16^^ sn16:
+  cymc16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16^^ sn8:
+  cymc16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16^^ <sn hhp>16^^ sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16: sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16 sn16^^ sn16 sn16^^
+  sn16^^ sn16 sn16 sn16^^ <sn hhp>16 sn16^^ sn16^^ sn16 sn16 sn16^^ sn16 sn16^^ <sn hhp>16^^ sn16^^ sn16^^ sn16
 }
 
 themeLo = \drummode {
