@@ -22,7 +22,7 @@ introUp = \drummode {
   hho \parenthesize hho hho cymc8~cymc4 s8 \tuplet 3/2 {r8 cymcb16->~} cymcb4. hho8
 }
 introDown = \drummode {
-  r2 r8 \tuplet 3/2 { bd16 toml tomml } \tuplet 3/2 { tomml bd bd} \grace { sn16 } sn8^^
+  r2 r8 \tuplet 3/2 { bd16 tomml toml } \tuplet 3/2 { toml bd bd} \grace { sn16 } sn8^^
   bd4 <bd sn>4 bd8. bd16 sn8 bd8~bd16 bd8. <bd sn~>8. \parenthesize sn8 \parenthesize sn bd16 sn16 bd8 \parenthesize sn16:32
   bd4 <bd sn>4 bd8. bd16 sn8 bd8~bd8. bd16 sn8. \parenthesize sn8 \parenthesize sn bd16 sn8 bd8~
   bd8 bd8 sn16 bd8. bd8. bd16 sn8 bd8~bd16 bd8. <bd sn~>8. \parenthesize sn8 \parenthesize sn bd16 sn16 bd8 \parenthesize sn16:32
@@ -123,7 +123,7 @@ brUp = \drummode {
 }
 brDown = \drummode {
   \tuplet 3/2 8 {sn16_"r"^^ sn_"l" sn_"l" sn_"r" sn_"r" sn_"l"^^ sn_"r" sn_"r" sn^^_"l" sn^^_"r" sn_"l" sn_"l" sn_"r" sn_"r" sn^^_"l"} bd8~bd sn8~
-  sn16 bd16~bd8 bd4 <sn toml>4 s4
+  sn16 bd16~bd8 bd4 <sn toml>4. s8
   s4. bd16 \parenthesize sn bd \parenthesize sn \parenthesize sn bd sn8. bd16~
   bd16 \parenthesize {sn:} r bd16~bd8 bd \tuplet 3/2 {r16 bd bd} sn8. sn16~sn8
   bd8. bd16 bd8. sn16~sn sn~sn bd sn4
@@ -171,7 +171,7 @@ chCdown = \drummode {
   bd4 <bd sn>4 bd8. bd16 sn8 bd8~bd8. bd16 sn8. \parenthesize sn8 \parenthesize sn bd16 sn8 bd8~
   bd8 bd8 sn16 bd8. bd8. bd16 sn8 bd8~bd16 bd8. <bd sn~>8. \parenthesize sn8 \parenthesize sn bd16 sn16 bd8 \parenthesize sn16:32
   bd4 <bd sn>4 bd8. bd16 sn8 bd~
-  bd8 bd sn8. bd16~bd8. bd16 sn
+  bd8 bd sn8. bd16~bd8. bd16 sn8
 }		 
 up = \drummode { \unfoldRepeats {
   \tempo 4 = 130
