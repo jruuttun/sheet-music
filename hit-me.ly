@@ -26,7 +26,7 @@ introDown = \drummode {
   bd4 <bd sn>4 bd8. bd16 sn8 bd8~bd16 bd8. <bd sn~>8. \parenthesize sn8 \parenthesize sn bd16 sn16 bd8 \parenthesize sn16:32
   bd4 <bd sn>4 bd8. bd16 sn8 bd8~bd8. bd16 sn8. \parenthesize sn8 \parenthesize sn bd16 sn8 bd8~
   bd8 bd8 sn16 bd8. bd8. bd16 sn8 bd8~bd16 bd8. <bd sn~>8. \parenthesize sn8 \parenthesize sn bd16 sn16 bd8 \parenthesize sn16:32
-  bd4 <bd sn>4 bd8. bd16 sn8 bd8 r8 \tuplet 3/2 {tomml16-> tommh tommh} \tuplet 3/2 {bd toml-> tomml} \tuplet 3/2 {tomml bd sn} r2 
+  bd4 <bd sn>4 bd8. bd16 sn8 bd8 \tuplet 3/2 8 {r16 tomml16-> tommh tommh bd bd toml-> tomml tomml bd bd sn} r2 
 }
 vAup = \drummode {
   hhp4 s2. \repeat percent 7 {s1}
