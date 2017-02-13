@@ -1,6 +1,11 @@
-This repository contains [LilyPond](http://www.lilypond.org) source
-code for some random music I transcribed. You can compile it to PDF by
-installing GNU Make and LilyPond (version 2.18.2 or newer) and issuing
-the command
+This repository contains some sheet music I transcribed using
+[LilyPond](http://www.lilypond.org) (published with permission).
+
+- [We Cannot Move by Kingston wall (drums)](we-cannot-move.pdf); see
+  also [me trying to play it](https://vimeo.com/203716232)
+
+The PDF files can be compiled using GNU Make and LilyPond version
+2.18.2 or newer by issuing the command
 
 	$ make
+
