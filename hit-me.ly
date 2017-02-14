@@ -40,7 +40,7 @@ vAdown = \drummode {
   \repeat percent 7 {bd4 bd bd bd } r16 bd^^ r bd^^ r8 r16 bd^^ r bd^^ r8 r8 sn8
   \repeat percent 3 { \vGrooveA } \vGrooveB
   \repeat percent 5 { \vGrooveA \vGrooveB }
-  bd16 \parenthesize sn8. sn8 tommh32 tommh tommh16 tomml tomml32 tomml32 toml16 bd16~bd sn8 sn16
+  bd16 \parenthesize sn8. sn8 tommh32_"r" tommh_"l" tommh16_"r" tommh_"l" tomml32_"r" tomml32_"l" toml16_"r" bd16~bd sn8 sn16
 }
 
 chAup = \drummode {
