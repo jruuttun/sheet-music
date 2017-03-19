@@ -164,15 +164,52 @@ chCup = \drummode {
   cymc \parenthesize hho hho \parenthesize hho
   \repeat percent 4 \chHH
   hho \parenthesize hho hho cymcb~
-  <cymcb hhp>8 cymcb~<cymcb hhp>8. cymc16~cymca8. cymca16~cymca4
+  <cymcb hhp>8 cymcb~<cymcb hhp>8. cymc16~cymca8. cymca16~cymca8 hho8
+  s1
 }
 chCdown = \drummode {
   bd4 <bd sn>4 bd8. bd16 sn8 bd8~bd16 bd8. <bd sn~>8. \parenthesize sn8 \parenthesize sn bd16 sn16 bd8 \parenthesize sn16:32
   bd4 <bd sn>4 bd8. bd16 sn8 bd8~bd8. bd16 sn8. \parenthesize sn8 \parenthesize sn bd16 sn8 bd8~
   bd8 bd8 sn16 bd8. bd8. bd16 sn8 bd8~bd16 bd8. <bd sn~>8. \parenthesize sn8 \parenthesize sn bd16 sn16 bd8 \parenthesize sn16:32
   bd4 <bd sn>4 bd8. bd16 sn8 bd~
-  bd8 bd sn8. bd16~bd8. bd16 sn8
-}		 
+  bd8 bd sn8. bd16~bd8. bd16 sn8 bd8
+  \tuplet 3/2 8 {sn16 sn sn^^ sn^^ sn sn^^ sn sn sn sn sn tommh^^ sn sn sn^^ sn^^ sn sn^^ tommh tommh tomml tomml toml toml}
+}
+postChUp = \drummode {
+  cymca8 cymr8 \parenthesize cymr16 \parenthesize cymr16 cymr8 cymr8 \parenthesize cymr16 cymr16~cymr16 \parenthesize cymr16 cymr8
+  \parenthesize cymr8 cymr8 \parenthesize cymr16 \parenthesize cymr16 cymr8 cymr8 \parenthesize cymr16 cymr16~cymr16 \parenthesize cymr16 cymr8
+  \parenthesize cymr8 cymr8 \parenthesize cymr16 \parenthesize cymr16 cymr8 cymr8 \parenthesize cymr16 cymr16~cymr16 \parenthesize cymr16 cymr8
+  \parenthesize cymr8 cymr8 \parenthesize cymr16 \parenthesize cymr16 cymr16 cymc16^^ \parenthesize cymr16 cymr16 cymr16 cymc16^^ \parenthesize cymr16 cymr16 cymr16 cymc16^^
+  cymr8 cymr8 cymc16^^ \parenthesize cymr16 cymr8 cymr8 \parenthesize cymr16 cymr16~cymr16 \parenthesize cymr16 cymr8
+  \parenthesize cymr8 cymr8 \parenthesize cymr16 \parenthesize cymr16 cymr8 cymr8 \parenthesize cymr16 cymr16~cymr16 \parenthesize cymr16 cymr8
+  \parenthesize cymr8 cymr8 \parenthesize cymr16 \parenthesize cymr16 cymr8 cymr8 \parenthesize cymr16 cymr16~cymr16 \parenthesize cymr16 cymr8
+  \parenthesize cymr8 cymr8 \parenthesize cymr16 \parenthesize cymr16 cymr8 cymr8 \parenthesize cymr16 cymr16~cymr16 s8.
+  s16 cymca16~cymc8 cymca4 s4. cymca8 
+  r2. r8 cymc8
+  s1
+  cymca8.^^ cymca16^^~cymca8 cymca8^^ r8 r2
+}
+ 
+postChDown = \drummode {
+  \vGrooveB
+  \vGrooveB
+  \vGrooveB
+  \vGrooveB
+  \vGrooveB
+  \vGrooveB
+  bd16 \parenthesize sn8. <bd sn> \parenthesize bd16~bd8. bd16 sn8. bd16~
+  \vGrooveB
+  \vGrooveB
+  \vGrooveB
+  \vGrooveB
+  \vGrooveB
+  \vGrooveB
+  bd16 \parenthesize sn8. <bd sn> \parenthesize bd16~bd8. bd16 sn8 sn8:32
+  sn16 bd16~bd8 bd8. sn16 toml8 sn16 bd16 <sn toml>8 bd8
+  s2. s8 sn8
+  bd16 sn16 <>^\markup { ?? } \tuplet 3/2 8 {r16 r16 hhc16_"l" hhc_"l" hhc_"r" hhc_"r" hhc_"l" hhc_"l" <tommh bd> hhc_"l" hhc_"l" hhc_"r" hhc_"r" hhc_"l" hhc_"l"} bd16 sn16 r8
+  bd8. bd16~bd8 bd8
+}	
 up = \drummode { \unfoldRepeats {
   \tempo 4 = 130
   \introUp
@@ -183,6 +220,7 @@ up = \drummode { \unfoldRepeats {
   \brUp
   \vCup
   \chCup
+  \postChUp
 }}
 down = \drummode { \unfoldRepeats {
   <>^\markup { intro }  \introDown
@@ -193,7 +231,7 @@ down = \drummode { \unfoldRepeats {
   <>^\markup { middle 8 } \brDown
   <>^\markup { verse 3 } \vCdown
   <>^\markup { chorus } \chCdown
-  <>^\markup { TBD }
+  <>^\markup { post-chorus } \postChDown
 }}
 
 
