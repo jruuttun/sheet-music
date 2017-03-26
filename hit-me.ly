@@ -189,7 +189,7 @@ postChUp = \drummode {
   s1
   cymca8.^^ cymca16^^~cymca8 cymca8^^ r2
   r1\fermata
-  cymca8^^ r8 r2.\fermata
+  cymca4^^ r2.\fermata
   r1\fermata
 }
  
@@ -217,7 +217,6 @@ postChDown = \drummode {
   s1
 }	
 up = \drummode { \unfoldRepeats {
-  \tempo 4 = 130
   \introUp
   \vAup
   \chAup
@@ -229,9 +228,17 @@ up = \drummode { \unfoldRepeats {
   \postChUp
   \drummode {s1}
   \drummode {cymca4 s2. s1}
-  \drummode {cymca8 r8 s2.}
+  \drummode {cymca4 s2.}
 }}
 down = \drummode { \unfoldRepeats {
+  <>^\markup\teeny {
+    \note #"16" #1
+    \note #"16" #1
+    =
+    \note #"8" #1
+	\raise #2 "3"
+	\note #"16" #1
+  }
   <>^\markup { intro }  \introDown
   <>^\markup { verse }  \vAdown
   <>^\markup { chorus } \chAdown
