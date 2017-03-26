@@ -187,7 +187,10 @@ postChUp = \drummode {
   s16 cymca16~cymc8 cymca4 s4. cymca8 
   r2. r8 cymc8
   s1
-  cymca8.^^ cymca16^^~cymca8 cymca8^^ r8 r2
+  cymca8.^^ cymca16^^~cymca8 cymca8^^ r2
+  r1\fermata
+  cymca8^^ r8 r2.\fermata
+  r1\fermata
 }
  
 postChDown = \drummode {
@@ -207,8 +210,11 @@ postChDown = \drummode {
   bd16 \parenthesize sn8. <bd sn> \parenthesize bd16~bd8. bd16 sn8 sn8:32
   sn16 bd16~bd8 bd8. sn16 toml8 sn16 bd16 <sn toml>8 bd8
   s2. s8 sn8
-  bd16 sn16 <>^\markup { ?? } \tuplet 3/2 8 {r16 r16 hhc16_"l" hhc_"l" hhc_"r" hhc_"r" hhc_"l" hhc_"l" <tommh bd> hhc_"l" hhc_"l" hhc_"r" hhc_"r" hhc_"l" hhc_"l"} bd16 sn16 r8
-  bd8. bd16~bd8 bd8
+  bd16 sn16 \tuplet 3/2 8 {r16 hhc16_"l" hhc_"l" hhc_"r" hhc_"r" hhc_"l" hhc_"l" <tommh bd>8 hhc16_"l" hhc_"l" hhc_"r" hhc_"r" hhc_"l" hhc_"l"} bd16 sn8. 
+  bd8. bd16~bd8 bd8 s2
+  s1
+  bd8 r8 s2.
+  s1
 }	
 up = \drummode { \unfoldRepeats {
   \tempo 4 = 130
@@ -221,6 +227,9 @@ up = \drummode { \unfoldRepeats {
   \vCup
   \chCup
   \postChUp
+  \drummode {s1}
+  \drummode {cymca4 s2. s1}
+  \drummode {cymca8 r8 s2.}
 }}
 down = \drummode { \unfoldRepeats {
   <>^\markup { intro }  \introDown
@@ -232,6 +241,10 @@ down = \drummode { \unfoldRepeats {
   <>^\markup { verse 3 } \vCdown
   <>^\markup { chorus } \chCdown
   <>^\markup { post-chorus } \postChDown
+  <>^\markup { fill ad lib. } \drummode {s1}
+  \drummode { bd4 s2.}
+  <>^\markup { fill to end } \drummode { s1 }
+  \drummode { bd8 r8 s2.}
 }}
 
 
