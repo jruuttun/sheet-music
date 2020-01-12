@@ -12,52 +12,52 @@
 themeHi = \drummode {
   % Alkuvinkuna ja sisääntulo
   <>^\markup { intro }
-  R1*3 r2 r4 sn16^^ sn16^^ sn16^^ sn16^^
+  R1*3 r2 r4 sn16^> sn16^> sn16^> sn16^>
   
-  cymc16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16^^ sn16^^ sn16 sn16 sn16
-  sn16 sn16 sn16 sn16^^ sn16^^ sn16 sn16 sn16 sn16 sn16 sn16 sn16^^ sn16^^ sn16 sn16 sn16
-  sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16^^ sn16^^ sn16 sn16 sn16
-  sn16 sn16 sn16 sn16^^ sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16^^ sn16^^ sn16 sn16 sn16^^
+  cymc16 sn16 sn16 sn16 sn16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16^> sn16^> sn16 sn16 sn16
+  sn16 sn16 sn16 sn16^> sn16^> sn16 sn16 sn16 sn16 sn16 sn16 sn16^> sn16^> sn16 sn16 sn16
+  sn16 sn16 sn16 sn16 sn16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16^> sn16^> sn16 sn16 sn16
+  sn16 sn16 sn16 sn16^> sn16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16^> sn16^> sn16 sn16 sn16^>
   
   <>^\markup { theme }
-  cymc16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn8:32
-  sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16
-  sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16^^ sn16^^ sn16 sn16 sn16^^
-  cymc16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16
-  sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 sn16
-  sn16 sn16 sn16 sn16: sn16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16: sn16^^ sn16 sn16^^ sn16^^
+  cymc16 sn16 sn16 sn16 sn16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16 sn16^> sn16 sn8:32
+  sn16 sn16 sn16 sn16 sn16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16 sn16^> sn16 sn8:
+  sn16 sn16 sn16 sn16 sn16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16 sn16^> sn16 sn16 sn16
+  sn16 sn16 sn16 sn16 sn16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16^> sn16^> sn16 sn16 sn16^>
+  cymc16 sn16 sn16 sn16 sn16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16 sn16^> sn16 sn16 sn16
+  sn16 sn16 sn16 sn16 sn16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16 sn16^> sn16 sn8:
+  sn16 sn16 sn16 sn16 sn16^> sn16 sn16 sn16 sn16 sn16 sn16 sn16 sn16^> sn16 sn16 sn16
+  sn16 sn16 sn16 sn16: sn16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16: sn16^> sn16 sn16^> sn16^>
 
   <>^\markup { theme in unison }
-  cymc16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16^^ sn8^^
-  cymc16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16: <sn hhp>16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
-  sn16^^ sn16: sn16: sn16^^ <sn hhp>16: sn16: sn16^^ sn16: sn16: sn16^^ sn16: sn16: <sn hhp>16^^ sn16: sn8:
+  cymc16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16 <sn hhp>16^> sn16^> sn8^>
+  cymc16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16: <sn hhp>16^> sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn8:
+  sn16^> sn16: sn16: sn16^> <sn hhp>16: sn16: sn16^> sn16: sn16: sn16^> sn16: sn16: <sn hhp>16^> sn16: sn8:
   
   <>^\markup { bridge }
-  cymc16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 sn16^^ <sn hhp>16 sn16 sn16^^
-  cymc16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hhp>16^^ sn16^^ sn16 sn16
-  cymc16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16: <sn hhp>16^^ sn16 sn16 sn16^^
-  sn16 sn16^^ sn16 sn16: <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16^^ <sn hhp>16 sn16^^ sn16^^ sn16:
-  cymc16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16^^ sn8:
-  cymc16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16 sn16^^ sn16 sn16 sn16 sn16^^ <sn hhp>16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 <sn hhp>16^^ sn16 sn16: sn16^^ sn16 sn16 sn16 sn16 <sn hhp>16 sn16^^ sn16 sn16^^
-  sn16^^ sn16 sn16 sn16^^ <sn hhp>16 sn16^^ sn16^^ sn16 sn16 sn16^^ sn16 sn16^^ <sn hhp>16^^ sn16^^ sn16^^ sn16
+  cymc16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16 sn16^> <sn hhp>16 sn16 sn16^>
+  cymc16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn16 sn16^> sn16 sn16^> sn16 sn16 <sn hhp>16^> sn16^> sn16 sn16
+  cymc16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16: <sn hhp>16^> sn16 sn16 sn16^>
+  sn16 sn16^> sn16 sn16: <sn hhp>16^> sn16 sn16 sn16^> sn16 sn16^> sn16 sn16^> <sn hhp>16 sn16^> sn16^> sn16:
+  cymc16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16 <sn hhp>16^> sn16^> sn8:
+  cymc16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn16 sn16^> sn16 sn16 sn16 sn16^> <sn hhp>16^> sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hhp>16^> sn16 sn16: sn16^> sn16 sn16 sn16 sn16 <sn hhp>16 sn16^> sn16 sn16^>
+  sn16^> sn16 sn16 sn16^> <sn hhp>16 sn16^> sn16^> sn16 sn16 sn16^> sn16 sn16^> <sn hhp>16^> sn16^> sn16^> sn16
 }
 
 themeLo = \drummode {
@@ -125,7 +125,7 @@ chorusLo = \drummode { % 43
   bd4 sn8. bd16~bd16 sn16 bd8 sn4
   bd4 sn8. bd16~bd16 sn8 bd16 sn16 bd8.
   bd4 sn8. bd16~bd16 sn8 bd16 sn8. bd16
-  bd8. bd32 tomfh32 sn8 bd16 tomml8^^ bd32 tomfh32 sn16 sn16 bd16 tomml16 sn8
+  bd8. bd32 tomfh32 sn8 bd16 tomml8^> bd32 tomfh32 sn16 sn16 bd16 tomml16 sn8
   bd8. bd16 sn8. bd16~bd16 \parenthesize sn8 bd16 sn8. bd16
   sn8 bd16 tomml16 tomfh16 sn16 sn16 bd16~bd16 bd16~bd16 sn16~sn16 sn16 sn16 bd16
   bd8. bd16 sn8. bd16~bd16 sn16 bd16 bd16 sn8 bd32 \parenthesize sn16.:32
@@ -153,26 +153,26 @@ chorusLo = \drummode { % 43
 themeBHi = \drummode {
   \break
   <>^\markup { theme 2 }
-  cymc16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16 sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^
-  sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^
-  sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn8:
-  sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^
-  sn16 sn16 sn16 sn16 <sn hho>16^^ sn16 sn16 sn16^^ sn16 sn16^^ sn16 sn16 <sn hho>16^^ sn16 sn8:
-  cymc16 sn16 sn16^^ hho16 sn16 sn16^^ cymc16 sn16 sn16^^ hho16 sn16 sn16 s4
+  cymc16 sn16 sn16 sn16 <sn hho>16^> sn16 sn16 sn16 sn16 sn16^> sn16 sn16 <sn hho>16^> sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hho>16^> sn16 sn16 sn16^> sn16 sn16^> sn16 sn16 <sn hho>16^> sn16 sn16 sn16^>
+  sn16 sn16 sn16 sn16 <sn hho>16^> sn16 sn16 sn16^> sn16 sn16^> sn16 sn16 <sn hho>16^> sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hho>16^> sn16 sn16 sn16^> sn16 sn16^> sn16 sn16 <sn hho>16^> sn16 sn16 sn16^>
+  sn16 sn16 sn16 sn16 <sn hho>16^> sn16 sn16 sn16^> sn16 sn16^> sn16 sn16 <sn hho>16^> sn16 sn8:
+  sn16 sn16 sn16 sn16 <sn hho>16^> sn16 sn16 sn16^> sn16 sn16^> sn16 sn16 <sn hho>16^> sn16 sn16 sn16^>
+  sn16 sn16 sn16 sn16 <sn hho>16^> sn16 sn16 sn16^> sn16 sn16^> sn16 sn16 <sn hho>16^> sn16 sn8:
+  cymc16 sn16 sn16^> hho16 sn16 sn16^> cymc16 sn16 sn16^> hho16 sn16 sn16 s4
 }
 
 themeBLo = \drummode {
   \repeat unfold 7 { bd4 bd4 bd4 bd4 }
-  bd8. bd16~bd8 bd8~bd16 bd16~bd8 \grace {bd32 tomfh32} tomml8^^ bd8
+  bd8. bd16~bd8 bd8~bd16 bd16~bd8 \grace {bd32 tomfh32} tomml8^> bd8
 }
 
 soloHi = \drummode {
   \break
   <>^\markup { guitar solo }
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
-  cymc8 cymr8 cymr8 cymr16 cymr16^^ cymr8 cymr8 cymr8 cymr8
+  cymc8 cymr8 cymr8 cymr16 cymr16^> cymr8 cymr8 cymr8 cymr8
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymc8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr4
   cymc8 cymr8 cymca8 cymr8 cymr8 cymr8 cymr8 cymr8
@@ -224,15 +224,15 @@ soloLo = \drummode {
 chorusBHi = \drummode {
   \break
   <>^\markup { chorus 2 } % "seesteinen"
-  cymc8 cymr16\p cymr16 cymr16^^ cymr16 cymr16 hho16~hhc8 cymr8 cymr8 cymr8 cymr8
-  cymr16 \parenthesize cymr16 cymr16 \parenthesize cymr16 \parenthesize cymr16 cymr16^^ cymr16 tomml32 tomml32 tomml16 tomml16 tomml16 tomml16 tomfh8
-  cymc8 cymr8 cymr16 \parenthesize cymr16 cymr16 cymr16^^ cymr16 \parenthesize cymr16 cymr8 cymr8 cymr8
+  cymc8 cymr16\p cymr16 cymr16^> cymr16 cymr16 hho16~hhc8 cymr8 cymr8 cymr8 cymr8
+  cymr16 \parenthesize cymr16 cymr16 \parenthesize cymr16 \parenthesize cymr16 cymr16^> cymr16 tomml32 tomml32 tomml16 tomml16 tomml16 tomml16 tomfh8
+  cymc8 cymr8 cymr16 \parenthesize cymr16 cymr16 cymr16^> cymr16 \parenthesize cymr16 cymr8 cymr8 cymr8
   cymr8 cymr8 cymr16 \parenthesize cymr16 cymr16 <tomml cymr>16~<tomml cymr>16 <tomml cymr>16 <tomml cymr>8. tomfh16 tomfh8
-  cymc8 cymr16 \parenthesize cymr16 cymr16 \parenthesize cymr16 cymr16 cymr16^^~cymr16 \parenthesize cymr16 \parenthesize cymr16 \parenthesize cymr16 cymr16 tomml16\< tomml16 tomml16
-  tomml16\!\p cymr16^^ cymr16 cymr16 cymr16^^ cymr16 cymr16 tomfh16^^~tomfh16 tomfh16^^ tomfh16^^ tomfh16 tomfh16 tomfh16^^ tomfh8^^
+  cymc8 cymr16 \parenthesize cymr16 cymr16 \parenthesize cymr16 cymr16 cymr16^>~cymr16 \parenthesize cymr16 \parenthesize cymr16 \parenthesize cymr16 cymr16 tomml16\< tomml16 tomml16
+  tomml16\!\p cymr16^> cymr16 cymr16 cymr16^> cymr16 cymr16 tomfh16^>~tomfh16 tomfh16^> tomfh16^> tomfh16 tomfh16 tomfh16^> tomfh8^>
 
-  cymc8 cymr8 cymr16^^ \parenthesize cymr16 cymr16 cymr16^^ cymr16 \parenthesize cymr16 cymr8 cymr16 \parenthesize sn16 \parenthesize sn16 tomfh16
-  tomml16^^ cymr16 \parenthesize sn16 \parenthesize sn16 cymr16 \parenthesize sn16 \parenthesize sn16 tomml16^^ sn32\< sn32 sn32 sn32 sn16\! sn16 sn16 tomml16 tomfh8
+  cymc8 cymr8 cymr16^> \parenthesize cymr16 cymr16 cymr16^> cymr16 \parenthesize cymr16 cymr8 cymr16 \parenthesize sn16 \parenthesize sn16 tomfh16
+  tomml16^> cymr16 \parenthesize sn16 \parenthesize sn16 cymr16 \parenthesize sn16 \parenthesize sn16 tomml16^> sn32\< sn32 sn32 sn32 sn16\! sn16 sn16 tomml16 tomfh8
 
   cymc8\f cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
   cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8 cymr8
@@ -260,7 +260,7 @@ chorusBLo = \drummode {
   bd4 sn8. bd16~bd16 sn8 bd16 sn4 \grace {bd32 bd32}
   sn8 bd16 sn16~sn16 tomml16 tomfh16 bd16~bd16 sn16~sn16 bd16~bd16 sn16 sn16 bd16
   bd4 sn8. bd16~bd16 sn16 bd16 bd16 sn8. bd16
-  sn16 bd16 tomml16 tomfh16^^ tomml16 tomfh16^^ tomml16 tomfh16^^ tomml16 tomfh16^^ tomml16 bd16 \grace sn32 sn4^^
+  sn16 bd16 tomml16 tomfh16^> tomml16 tomfh16^> tomml16 tomfh16^> tomml16 tomfh16^> tomml16 bd16 \grace sn32 sn4^>
 }
 themeCHi = \drummode {
   \break
